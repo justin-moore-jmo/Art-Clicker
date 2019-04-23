@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FFAB48F226F947500A3A38D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAB48E226F947500A3A38D /* AppDelegate.swift */; };
+		9FFAB491226F947500A3A38D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAB490226F947500A3A38D /* ViewController.swift */; };
+		9FFAB494226F947500A3A38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFAB492226F947500A3A38D /* Main.storyboard */; };
+		9FFAB496226F947700A3A38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFAB495226F947700A3A38D /* Assets.xcassets */; };
+		9FFAB499226F947700A3A38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFAB497226F947700A3A38D /* LaunchScreen.storyboard */; };
+		9FFAB4A4226F947700A3A38D /* Art_ClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAB4A3226F947700A3A38D /* Art_ClickerTests.swift */; };
+		9FFAB4AF226F947700A3A38D /* Art_ClickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAB4AE226F947700A3A38D /* Art_ClickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FFAB4A0226F947700A3A38D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FFAB483226F947500A3A38D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFAB48A226F947500A3A38D;
+			remoteInfo = "Art Clicker";
+		};
+		9FFAB4AB226F947700A3A38D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FFAB483226F947500A3A38D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFAB48A226F947500A3A38D;
+			remoteInfo = "Art Clicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FFAB48B226F947500A3A38D /* Art Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFAB48E226F947500A3A38D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FFAB490226F947500A3A38D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FFAB493226F947500A3A38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FFAB495226F947700A3A38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FFAB498226F947700A3A38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FFAB49A226F947700A3A38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFAB49F226F947700A3A38D /* Art ClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Art ClickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFAB4A3226F947700A3A38D /* Art_ClickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Art_ClickerTests.swift; sourceTree = "<group>"; };
+		9FFAB4A5226F947700A3A38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFAB4AA226F947700A3A38D /* Art ClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Art ClickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFAB4AE226F947700A3A38D /* Art_ClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Art_ClickerUITests.swift; sourceTree = "<group>"; };
+		9FFAB4B0226F947700A3A38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FFAB488226F947500A3A38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFAB49C226F947700A3A38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFAB4A7226F947700A3A38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FFAB482226F947500A3A38D = {
+			isa = PBXGroup;
+			children = (
+				9FFAB48D226F947500A3A38D /* Art Clicker */,
+				9FFAB4A2226F947700A3A38D /* Art ClickerTests */,
+				9FFAB4AD226F947700A3A38D /* Art ClickerUITests */,
+				9FFAB48C226F947500A3A38D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FFAB48C226F947500A3A38D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAB48B226F947500A3A38D /* Art Clicker.app */,
+				9FFAB49F226F947700A3A38D /* Art ClickerTests.xctest */,
+				9FFAB4AA226F947700A3A38D /* Art ClickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FFAB48D226F947500A3A38D /* Art Clicker */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAB48E226F947500A3A38D /* AppDelegate.swift */,
+				9FFAB490226F947500A3A38D /* ViewController.swift */,
+				9FFAB492226F947500A3A38D /* Main.storyboard */,
+				9FFAB495226F947700A3A38D /* Assets.xcassets */,
+				9FFAB497226F947700A3A38D /* LaunchScreen.storyboard */,
+				9FFAB49A226F947700A3A38D /* Info.plist */,
+			);
+			path = "Art Clicker";
+			sourceTree = "<group>";
+		};
+		9FFAB4A2226F947700A3A38D /* Art ClickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAB4A3226F947700A3A38D /* Art_ClickerTests.swift */,
+				9FFAB4A5226F947700A3A38D /* Info.plist */,
+			);
+			path = "Art ClickerTests";
+			sourceTree = "<group>";
+		};
+		9FFAB4AD226F947700A3A38D /* Art ClickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAB4AE226F947700A3A38D /* Art_ClickerUITests.swift */,
+				9FFAB4B0226F947700A3A38D /* Info.plist */,
+			);
+			path = "Art ClickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FFAB48A226F947500A3A38D /* Art Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFAB4B3226F947700A3A38D /* Build configuration list for PBXNativeTarget "Art Clicker" */;
+			buildPhases = (
+				9FFAB487226F947500A3A38D /* Sources */,
+				9FFAB488226F947500A3A38D /* Frameworks */,
+				9FFAB489226F947500A3A38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Art Clicker";
+			productName = "Art Clicker";
+			productReference = 9FFAB48B226F947500A3A38D /* Art Clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FFAB49E226F947700A3A38D /* Art ClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFAB4B6226F947700A3A38D /* Build configuration list for PBXNativeTarget "Art ClickerTests" */;
+			buildPhases = (
+				9FFAB49B226F947700A3A38D /* Sources */,
+				9FFAB49C226F947700A3A38D /* Frameworks */,
+				9FFAB49D226F947700A3A38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FFAB4A1226F947700A3A38D /* PBXTargetDependency */,
+			);
+			name = "Art ClickerTests";
+			productName = "Art ClickerTests";
+			productReference = 9FFAB49F226F947700A3A38D /* Art ClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FFAB4A9226F947700A3A38D /* Art ClickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFAB4B9226F947700A3A38D /* Build configuration list for PBXNativeTarget "Art ClickerUITests" */;
+			buildPhases = (
+				9FFAB4A6226F947700A3A38D /* Sources */,
+				9FFAB4A7226F947700A3A38D /* Frameworks */,
+				9FFAB4A8226F947700A3A38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FFAB4AC226F947700A3A38D /* PBXTargetDependency */,
+			);
+			name = "Art ClickerUITests";
+			productName = "Art ClickerUITests";
+			productReference = 9FFAB4AA226F947700A3A38D /* Art ClickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FFAB483226F947500A3A38D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Justin Moore";
+				TargetAttributes = {
+					9FFAB48A226F947500A3A38D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9FFAB49E226F947700A3A38D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9FFAB48A226F947500A3A38D;
+					};
+					9FFAB4A9226F947700A3A38D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9FFAB48A226F947500A3A38D;
+					};
+				};
+			};
+			buildConfigurationList = 9FFAB486226F947500A3A38D /* Build configuration list for PBXProject "Art Clicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FFAB482226F947500A3A38D;
+			productRefGroup = 9FFAB48C226F947500A3A38D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FFAB48A226F947500A3A38D /* Art Clicker */,
+				9FFAB49E226F947700A3A38D /* Art ClickerTests */,
+				9FFAB4A9226F947700A3A38D /* Art ClickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FFAB489226F947500A3A38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFAB499226F947700A3A38D /* LaunchScreen.storyboard in Resources */,
+				9FFAB496226F947700A3A38D /* Assets.xcassets in Resources */,
+				9FFAB494226F947500A3A38D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFAB49D226F947700A3A38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFAB4A8226F947700A3A38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FFAB487226F947500A3A38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFAB491226F947500A3A38D /* ViewController.swift in Sources */,
+				9FFAB48F226F947500A3A38D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFAB49B226F947700A3A38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFAB4A4226F947700A3A38D /* Art_ClickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFAB4A6226F947700A3A38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFAB4AF226F947700A3A38D /* Art_ClickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FFAB4A1226F947700A3A38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FFAB48A226F947500A3A38D /* Art Clicker */;
+			targetProxy = 9FFAB4A0226F947700A3A38D /* PBXContainerItemProxy */;
+		};
+		9FFAB4AC226F947700A3A38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FFAB48A226F947500A3A38D /* Art Clicker */;
+			targetProxy = 9FFAB4AB226F947700A3A38D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FFAB492226F947500A3A38D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFAB493226F947500A3A38D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FFAB497226F947700A3A38D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFAB498226F947700A3A38D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FFAB4B1226F947700A3A38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FFAB4B2226F947700A3A38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FFAB4B4226F947700A3A38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art Clicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wow.Art-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FFAB4B5226F947700A3A38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art Clicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wow.Art-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FFAB4B7226F947700A3A38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art ClickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wow.Art-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Art Clicker.app/Art Clicker";
+			};
+			name = Debug;
+		};
+		9FFAB4B8226F947700A3A38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art ClickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wow.Art-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Art Clicker.app/Art Clicker";
+			};
+			name = Release;
+		};
+		9FFAB4BA226F947700A3A38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art ClickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wow.Art-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Art Clicker";
+			};
+			name = Debug;
+		};
+		9FFAB4BB226F947700A3A38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art ClickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wow.Art-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Art Clicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FFAB486226F947500A3A38D /* Build configuration list for PBXProject "Art Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFAB4B1226F947700A3A38D /* Debug */,
+				9FFAB4B2226F947700A3A38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFAB4B3226F947700A3A38D /* Build configuration list for PBXNativeTarget "Art Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFAB4B4226F947700A3A38D /* Debug */,
+				9FFAB4B5226F947700A3A38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFAB4B6226F947700A3A38D /* Build configuration list for PBXNativeTarget "Art ClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFAB4B7226F947700A3A38D /* Debug */,
+				9FFAB4B8226F947700A3A38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFAB4B9226F947700A3A38D /* Build configuration list for PBXNativeTarget "Art ClickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFAB4BA226F947700A3A38D /* Debug */,
+				9FFAB4BB226F947700A3A38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FFAB483226F947500A3A38D /* Project object */;
+}
