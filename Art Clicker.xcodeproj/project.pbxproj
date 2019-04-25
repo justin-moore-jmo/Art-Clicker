@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FC64D9F22723B2900CACD80 /* iPhone 6-7-8 – 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC64D9E22723B2900CACD80 /* iPhone 6-7-8 – 1.png */; };
 		9FFAB48F226F947500A3A38D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAB48E226F947500A3A38D /* AppDelegate.swift */; };
 		9FFAB491226F947500A3A38D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAB490226F947500A3A38D /* ViewController.swift */; };
 		9FFAB494226F947500A3A38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFAB492226F947500A3A38D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9FC64D9E22723B2900CACD80 /* iPhone 6-7-8 – 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone 6-7-8 – 1.png"; path = "Art Stuff/iPhone 6-7-8 – 1.png"; sourceTree = SOURCE_ROOT; };
 		9FFAB48B226F947500A3A38D /* Art Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFAB48E226F947500A3A38D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FFAB490226F947500A3A38D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		9FFAB48D226F947500A3A38D /* Art Clicker */ = {
 			isa = PBXGroup;
 			children = (
+				9FC64D9E22723B2900CACD80 /* iPhone 6-7-8 – 1.png */,
 				9FFAB48E226F947500A3A38D /* AppDelegate.swift */,
 				9FFAB490226F947500A3A38D /* ViewController.swift */,
 				9FFAB492226F947500A3A38D /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FFAB499226F947700A3A38D /* LaunchScreen.storyboard in Resources */,
+				9FC64D9F22723B2900CACD80 /* iPhone 6-7-8 – 1.png in Resources */,
 				9FFAB496226F947700A3A38D /* Assets.xcassets in Resources */,
 				9FFAB494226F947500A3A38D /* Main.storyboard in Resources */,
 			);

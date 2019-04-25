@@ -25,18 +25,31 @@ class ViewController: UIViewController {
     @IBAction func createPointsButton(_ sender: Any) {
         currentPoints += pointsPower
         pointsLabel.text = String(currentPoints)
-        if currentPoints >= 100{
+        if currentPoints >= 10{
             moveForwardButton.alpha = 1
         }
     }
     
     @IBAction func nextLevelButton(_ sender: Any) {
-        if currentPoints >= 100{
+        if currentPoints >= 10{
             performSegue(withIdentifier: "SegueToSecondLevel", sender: nil)
         }
     }
 }
 
-class SecondLevel: ViewController{
+class SecondLevel: UIViewController{
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //pointsLabel.text = String(currentPoints)
+        //createButtonProperties.alpha = 0
+        print("second level loaded")
+    }
+    var pointsPower: Int = 1
+    var currentPoints: Int = 0
+    
+    
+    
+    
+
 }
